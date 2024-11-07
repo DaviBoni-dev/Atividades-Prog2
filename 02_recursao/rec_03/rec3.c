@@ -28,6 +28,7 @@ int main() {
 
         qntdOcorrencias = contaOcorrencias(vetor, tamanhoVetor, numOjetivo);
         printf("%d\n", qntdOcorrencias);
+        
 
     }
 }
