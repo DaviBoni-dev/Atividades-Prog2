@@ -16,7 +16,7 @@
  * @param ano Ano da data.
  * @return Retorna 1 se a data é válida e 0 caso contrário.
  */
-int verificaDataValida(int dia, int mes, int ano);
+int verificaDataValida(int dia, int mes, int ano)
 
 /**
  * @brief Imprime uma data no formato DD/MM/AAAA.
