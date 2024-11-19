@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "string_utils.h"
 
@@ -6,9 +7,11 @@
  * @param str A string para obter o tamanho.
  * @return O tamanho da string.
  */
-int string_length(char *str){
+int string_length(char *str)
+{
     int i = 0;
-    while(str[i] != '\0'){
+    while (str[i] != '\0')
+    {
         i++;
     }
 
@@ -20,9 +23,11 @@ int string_length(char *str){
  * @param src A string de origem.
  * @param dest A string de destino.
  */
-void string_copy(char *src, char *dest){
+void string_copy(char *src, char *dest)
+{
     int tamanho = string_length(src);
-    for(int i = 0; i < tamanho; i++){
+    for (int i = 0; i < tamanho; i++)
+    {
         dest[i] = src[i];
     }
 }
@@ -31,11 +36,14 @@ void string_copy(char *src, char *dest){
  * @brief Converte todos os caracteres de uma string para maiúsculas.
  * @param str A string para converter.
  */
-void string_upper(char *str){
+void string_upper(char *str)
+{
     int tamanho = string_length(str);
-    for(int i = 0; i < tamanho; i++){
+    for (int i = 0; i < tamanho; i++)
+    {
         int correspondenteAsc = str[i];
-        if(correspondenteAsc >= 97 && correspondenteAsc <= 122){
+        if (correspondenteAsc >= 97 && correspondenteAsc <= 122)
+        {
             str[i] = correspondenteAsc - 32;
         }
     }
@@ -45,11 +53,14 @@ void string_upper(char *str){
  * @brief Converte todos os caracteres de uma string para minúsculas.
  * @param str A string para converter.
  */
-void string_lower(char *str){
-     int tamanho = string_length(str);
-    for(int i = 0; i < tamanho; i++){
+void string_lower(char *str)
+{
+    int tamanho = string_length(str);
+    for (int i = 0; i < tamanho; i++)
+    {
         int correspondenteAsc = str[i];
-        if(correspondenteAsc >= 65 && correspondenteAsc <= 90){
+        if (correspondenteAsc >= 65 && correspondenteAsc <= 90)
+        {
             str[i] = correspondenteAsc + 32;
         }
     }
@@ -59,26 +70,15 @@ void string_lower(char *str){
  * @brief Inverte uma string.
  * @param str A string para inverter.
  */
-void string_reverse(char *str){
+void string_reverse(char *str)
+{
     int tamanho = string_length(str);
     char novaString[tamanho];
     string_copy(str, novaString);
-    int j = tamanho - 1;
-    for(int i = 0; i < tamanho; i++){
+    int j = tamanho - 2;
+    for (int i = 0; i < tamanho; i++)
+    {
         str[i] = novaString[j];
         j--;
     }
 }
-
-int main(){
-    char string[10] = "Ola";
-    char dest[10];
-    string_copy(string, dest);
-    printf("Tamanho: %d", string_length(string));
-    printf("\n Frase: %s", dest);
-    string_upper(string);
-    printf("\n Maiuscula: %s", string);
-    string_reverse(string);
-    printf("\n Contrario: %s", string);
-}
-

@@ -6,6 +6,7 @@
 6 - Encerrar o programa
 Opcao escolhida: 
 Tamanho da string: 14
+
 1 - Tamanho da string
 2 - Copiar string
 3 - Converter string para letras maiusculas
@@ -14,6 +15,7 @@ Tamanho da string: 14
 6 - Encerrar o programa
 Opcao escolhida: 
 String copiada: Hello world!
+
 1 - Tamanho da string
 2 - Copiar string
 3 - Converter string para letras maiusculas
@@ -21,24 +23,31 @@ String copiada: Hello world!
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-String convertida para maiusculas: HELLO WORLD!1 - Tamanho da string
+String convertida para maiusculas: HELLO WORLD!
+
+1 - Tamanho da string
 2 - Copiar string
 3 - Converter string para letras maiusculas
 4 - Converter string para letras minusculas
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-String convertida para minusculas: hello world!1 - Tamanho da string
+String convertida para minusculas: hello world!
+
+1 - Tamanho da string
 2 - Copiar string
 3 - Converter string para letras maiusculas
 4 - Converter string para letras minusculas
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
-String invertida: !dlrow olleh1 - Tamanho da string
+String invertida: !dlrow olleh
+
+1 - Tamanho da string
 2 - Copiar string
 3 - Converter string para letras maiusculas
 4 - Converter string para letras minusculas
 5 - Imprimir string ao contrario
 6 - Encerrar o programa
 Opcao escolhida: 
+

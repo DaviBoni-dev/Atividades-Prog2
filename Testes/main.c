@@ -38,21 +38,19 @@ int main()
         if (numeroSelecionado == 3)
         {
             string_upper(string);
-            printf("String convertida para maiusculas: %s\n", string);
+            printf("String convertida para maiusculas: %s", string);
         }
 
         if (numeroSelecionado == 4)
         {
             string_lower(string);
-            printf("String convertida para minusculas: %s\n", string);
+            printf("String convertida para minusculas: %s", string);
         }
 
         if (numeroSelecionado == 5)
         {
             string_reverse(string);
-            printf("String invertida: %s\n", string);
+            printf("String invertida: %s", string);
         }
-
-        printf("\n");
     }
 }
