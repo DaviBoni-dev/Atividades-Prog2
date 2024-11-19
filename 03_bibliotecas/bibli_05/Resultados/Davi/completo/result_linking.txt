@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Davi/completo/string_utils.o: in function `main':
+string_utils.c:(.text+0x2c6): multiple definition of `main'; Resultados/Davi/completo/main.o:main.c:(.text+0x0): first defined here
+collect2: error: ld returned 1 exit status
