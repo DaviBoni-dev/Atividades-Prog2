@@ -1,0 +1,4 @@
+data.c: In function ‘verificaDataValida’:
+data.c:31:26: warning: implicit declaration of function ‘numeroDiasMes’ [-Wimplicit-function-declaration]
+   31 |     if (dia < 0 || dia > numeroDiasMes(mes, ano))
+      |                          ^~~~~~~~~~~~~
