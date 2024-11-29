@@ -5,7 +5,7 @@
 #include "data.h"
 #include "lesao.h"
 
-typedef struct 
+typedef struct
 {
     char nome[TAM_NOME];
     Data data;
@@ -17,7 +17,8 @@ typedef struct
 
 Paciente lerPaciente();
 void imprimePaciente(Paciente pac);
-
-
+int comparaCartaoSusPaciente(Paciente pac, char carSusLes[TAM_DIAG]);
+Paciente atribuirLesaoPaciente(Paciente pac, Lesao les);
+void imprimeLesoesPaciente(Paciente pac);
 
 #endif

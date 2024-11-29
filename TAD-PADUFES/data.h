@@ -10,5 +10,7 @@ typedef struct
 
 Data lerData();
 void imprimeData(Data d);
+int diferencaAnosData(Data di, Data df);
+Data setData();
 
 #endif

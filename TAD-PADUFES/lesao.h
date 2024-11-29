@@ -14,6 +14,6 @@ typedef struct
 
 Lesao lerLesao();
 void imprimeLesao(Lesao les);
-int comparaCartaoLesao(Lesao les, *char sus);
-
+void getCartaoSusLesao(Lesao les, char susLes[TAM_DIAG]);
+int precisaCirurgiaLesao(Lesao les);
 #endif

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "lesao.h"
+#include "constantes.h"
 
 Lesao lerLesao()
 {
@@ -23,9 +24,14 @@ void imprimeLesao(Lesao les)
     printf("Malig: %d", les.malig);
 }
 
-int comparaCartaoLesao(Lesao les, *char sus)
+void getCartaoSusLesao(Lesao les, char susLes[TAM_DIAG])
 {
-    if (strcmp(les.carSus, sus))
+    strcpy(susLes, les.carSus);
+}
+
+int precisaCirurgiaLesao(Lesao les)
+{
+    if (les.malig > 50)
         return 1;
 
     return 0;
