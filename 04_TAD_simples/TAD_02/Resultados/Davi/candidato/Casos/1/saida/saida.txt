@@ -1,3 +1,5 @@
-- PRESIDENTE ELEITO: Alan Turing (Partido dos Avanço Intelectual (PAI)), 1818578208 voto(s), -200.00%
-- GOVERNADOR ELEITO: Ada Lovelace (Gamers Unidos (GU)), 2020961899 voto(s), 100.00%
+- PRESIDENTE ELEITO: 
+Edsger Dijkstra (Partido do Melhor Caminho (PMC)), 3 voto(s), 100.00%
+- GOVERNADOR ELEITO: 
+Ada Lovelace (Gamers Unidos (GU)), 2 voto(s), 0.00%
 - NULOS E BRANCOS: 0, 0

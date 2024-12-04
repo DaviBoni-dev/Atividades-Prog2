@@ -1,0 +1,4 @@
+candidato.c: In function ‘CriaCandidato’:
+candidato.c:20:14: warning: statement with no effect [-Wunused-value]
+   20 |     candidato.votos;
+      |     ~~~~~~~~~^~~~~~

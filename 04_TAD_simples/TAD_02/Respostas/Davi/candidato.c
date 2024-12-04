@@ -17,7 +17,7 @@ tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id)
     strcpy(candidato.partido, partido);
     candidato.cargo = cargo;
     candidato.id = id;
-    candidato.votos = 0;
+    candidato.votos;
 
     return candidato;
 }
@@ -29,16 +29,8 @@ tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id)
 tCandidato LeCandidato()
 {
     tCandidato candidato;
-    scanf("%[^,]", candidato.nome);
-    getchar();
-    getchar();
-    scanf("%[^,]", candidato.partido);
-    getchar();
-    getchar();
-    scanf(" %c", &candidato.cargo);
-    getchar();
-    getchar();
-    scanf("%d\n", &candidato.id);
+    scanf("%[^,], %[^,], %c, %d", candidato.nome, candidato.partido, &candidato.cargo, &candidato.id);
+    candidato.votos = 0;
     return candidato;
 }
 

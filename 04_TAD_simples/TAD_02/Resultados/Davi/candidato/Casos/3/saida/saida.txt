@@ -1,3 +1,4 @@
-- PRESIDENTE ELEITO: Carol Shaw (Mulheres Programadoras Unidas (MPU)), 1650808611 voto(s), 0.00%
-- GOVERNADOR ELEITO: Ada Lovelace (Gamers Unidos (GU)), 2020961898 voto(s), 100.00%
+- PRESIDENTE ELEITO: EMPATE. SERA NECESSARIO UMA NOVA VOTACAO
+- GOVERNADOR ELEITO: 
+Linus Torvalds (Partido: Linux (Linux)), 4 voto(s), 0.00%
 - NULOS E BRANCOS: 2, 1

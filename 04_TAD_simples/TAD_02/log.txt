@@ -86,7 +86,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Davi/completo/result_linking.txt
  - Pasta eleicao:
  - Gerando o binário prog linkando com o(s) arquivo(s) eleicao/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Davi/eleicao/result_linking.txt
  - Pasta candidato:
  - Gerando o binário prog linkando com o(s) arquivo(s) candidato/*.o
@@ -96,7 +96,6 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) eleitor/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Davi/eleitor/result_linking.txt
- - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -204,57 +203,67 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta completo (máximo 2.00) - 0 de 100 - 0% de 2.00: 0.
  -----
  - Pasta eleicao / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta eleicao / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta eleicao / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta eleicao / Caso 7:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 8:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta eleicao / Caso 9:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta eleicao (máximo 2.00) - 0 de 100 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/Davi/eleicao/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta eleicao (máximo 2.00) - 40.00 de 100 - 40.00% de 2.00: .80.
  -----
  - Pasta candidato / Caso 1:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 324 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta candidato / Caso 10:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 325 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta candidato / Caso 2:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
@@ -262,14 +271,14 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 3:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 201 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta candidato / Caso 4:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 324 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 5:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/5/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
@@ -282,20 +291,20 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 7:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/7/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 325 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 8:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/8/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 79 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta candidato / Caso 9:
  - Arquivo de output gerado: Resultados/Davi/candidato/Casos/9/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta candidato (máximo 2.00) - 40.00 de 100 - 40.00% de 2.00: .80.
+ - Nota para a pasta candidato (máximo 2.00) - 70.00 de 100 - 70.00% de 2.00: 1.40.
  -----
  - Pasta eleitor / Caso 1:
  - Arquivo de output gerado: Resultados/Davi/eleitor/Casos/1/result_valgrind.txt.
@@ -358,7 +367,7 @@ RESULTADOS FINAIS
 Aluno: Davi
  - Arquivos Esperados Corretos: 7 de 7
  - Pastas Compiladas Corretamente: 5 de 5 
- - Pastas Linkadas Corretamente: 4 de 5
+ - Pastas Linkadas Corretamente: 5 de 5
  - Teste main
  - Resultados corretos: 0 de 10
  - Valgrinds corretos: 10 de 10
@@ -368,19 +377,19 @@ Aluno: Davi
  - Valgrinds corretos: 10 de 10
  - Nota de Davi para o teste completo: 0
  - Teste eleicao
- - Resultados corretos: 0 de 10
- - Valgrinds corretos: 0 de 10
- - Nota de Davi para o teste eleicao: 0
- - Teste candidato
  - Resultados corretos: 4 de 10
- - Valgrinds corretos: 4 de 10
- - Nota de Davi para o teste candidato: .80
+ - Valgrinds corretos: 10 de 10
+ - Nota de Davi para o teste eleicao: .80
+ - Teste candidato
+ - Resultados corretos: 7 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Davi para o teste candidato: 1.40
  - Teste eleitor
  - Resultados corretos: 10 de 10
  - Valgrinds corretos: 10 de 10
  - Nota de Davi para o teste eleitor: 2.00
- - Nota de Davi: 0+(2.00)+(0)+(0)+(0)+(.80)
- - Nota de Davi: 2.80
+ - Nota de Davi: 0+(2.00)+(.80)+(0)+(0)+(1.40)
+ - Nota de Davi: 4.20
 
 ----------------------------------------------------------------------------
 

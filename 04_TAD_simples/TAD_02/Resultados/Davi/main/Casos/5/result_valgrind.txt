@@ -1,15 +1,15 @@
-==163391== Memcheck, a memory error detector
-==163391== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==163391== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==163391== Command: Resultados/Davi/main/prog Resultados/Davi/main/Casos/5
-==163391== Parent PID: 163390
-==163391== 
-==163391== 
-==163391== HEAP SUMMARY:
-==163391==     in use at exit: 0 bytes in 0 blocks
-==163391==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
-==163391== 
-==163391== All heap blocks were freed -- no leaks are possible
-==163391== 
-==163391== For lists of detected and suppressed errors, rerun with: -s
-==163391== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==99192== Memcheck, a memory error detector
+==99192== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==99192== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==99192== Command: Resultados/Davi/main/prog Resultados/Davi/main/Casos/5
+==99192== Parent PID: 99191
+==99192== 
+==99192== 
+==99192== HEAP SUMMARY:
+==99192==     in use at exit: 0 bytes in 0 blocks
+==99192==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==99192== 
+==99192== All heap blocks were freed -- no leaks are possible
+==99192== 
+==99192== For lists of detected and suppressed errors, rerun with: -s
+==99192== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

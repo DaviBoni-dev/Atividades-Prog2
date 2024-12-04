@@ -4,11 +4,11 @@
 #include "candidato.h"
 #include "eleitor.h"
 
-
 #define MAX_CANDIDATOS_POR_CARGO 3
 #define MAX_ELEITORES 10
 
-typedef struct {
+typedef struct
+{
     tCandidato presidentes[MAX_CANDIDATOS_POR_CARGO];
     int totalPresidentes;
 
@@ -23,7 +23,7 @@ typedef struct {
 
     tEleitor eleitores[MAX_ELEITORES];
     int totalEleitores;
-    
+
 } tEleicao;
 
 /**
