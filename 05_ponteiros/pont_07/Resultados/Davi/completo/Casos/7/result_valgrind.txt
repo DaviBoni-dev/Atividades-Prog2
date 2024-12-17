@@ -1,0 +1,26 @@
+==19890== Memcheck, a memory error detector
+==19890== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==19890== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==19890== Command: Resultados/Davi/completo/prog Resultados/Davi/completo/Casos/7
+==19890== Parent PID: 19889
+==19890== 
+==19890== Conditional jump or move depends on uninitialised value(s)
+==19890==    at 0x1093D6: trocarDataEvento (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890==    by 0x109752: main (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890== 
+==19890== Conditional jump or move depends on uninitialised value(s)
+==19890==    at 0x1093E3: trocarDataEvento (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890==    by 0x109752: main (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890== 
+==19890== Use of uninitialised value of size 8
+==19890==    at 0x1093FB: trocarDataEvento (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890==    by 0x109752: main (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890== 
+==19890== Use of uninitialised value of size 8
+==19890==    at 0x109414: trocarDataEvento (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890==    by 0x109752: main (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890== 
+==19890== Use of uninitialised value of size 8
+==19890==    at 0x10942D: trocarDataEvento (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890==    by 0x109752: main (in /mnt/c/Users/bonid/Desktop/UFES/PROG2/Atividades-Prog2/05_ponteiros/pont_07/Resultados/Davi/completo/prog)
+==19890== 
