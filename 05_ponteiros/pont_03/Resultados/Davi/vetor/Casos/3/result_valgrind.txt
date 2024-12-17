@@ -4,3 +4,12 @@
 ==5622== Command: Resultados/Davi/vetor/prog Resultados/Davi/vetor/Casos/3
 ==5622== Parent PID: 5621
 ==5622== 
+==5622== 
+==5622== HEAP SUMMARY:
+==5622==     in use at exit: 0 bytes in 0 blocks
+==5622==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==5622== 
+==5622== All heap blocks were freed -- no leaks are possible
+==5622== 
+==5622== For lists of detected and suppressed errors, rerun with: -s
+==5622== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
