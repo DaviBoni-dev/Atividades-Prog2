@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:18:5: warning: ‘v’ is used uninitialized [-Wuninitialized]
+   18 |     LeVetor(v);
+      |     ^~~~~~~~~~
+main.c:17:12: note: ‘v’ was declared here
+   17 |     Vetor *v;
+      |            ^
